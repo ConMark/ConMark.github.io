@@ -6,8 +6,8 @@ format: yml
 moderation: false
 path: "_data/comments/{options.slug}"
 requiredFields: ['name', 'email', 'message']
-  generatedFields:
-    date:
-      type: date
-      options:
-        format: "iso8601"
+generatedFields:
+  date:
+    type: date
+    options:
+      format: "iso8601"
