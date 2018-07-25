@@ -4,5 +4,5 @@ commitMessage: "There's been a new message left!"
 filename: "entry{@timestamp}"
 format: yml
 moderation: false
-path: "_data/comments"
+path: "_data/comments/{options.slug}"
 requiredFields: ['name', 'email', 'message']
