@@ -5,5 +5,11 @@ layout: default
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
-  {{ content }}
+<html>
+  <body>
+    {{ content }}
+    {% include comments-new.html %}
+    {% include comments.html %}
+  </body>
 </div>
+</html>
