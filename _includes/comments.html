@@ -3,10 +3,10 @@
 {% for comment in comments reversed %}
   {% assign commentData = comment[1] %}
     <div>
-      <br>		
-      {{ commentData.message }}</br>
+      <br>
       From: {{ commentData.name }}</br>
-      {{ commentData.date | date_to_long_string }}
+      {{ commentData.date | date_to_long_string }}		
+      {{ commentData.message }}</br>
       <br>
     </div>
 {% endfor %}
