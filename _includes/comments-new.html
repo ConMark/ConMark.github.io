@@ -1,10 +1,15 @@
-<form method="POST" action="https://api.staticman.net/v2/entry/ConMark/ConMark.github.io/master">
-  <input name="options[redirect]" type="hidden" value="https://ConMark.github.io/blog">
+<fieldset>
+<legend>Submit a comment:</legend>
+<form method="POST" action="https://api.staticman.net/v2/entry/ConMark/ConMark.$
+  <input name="options[redirect]" type="hidden" value="https://ConMark.github.i$
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label><input name="fields[name]" type="text">Name</label>
-  <label><input name="fields[email]" type="email">E-mail</label>
-  <label><textarea name="fields[message]" 
-		resize: none;></textarea>Message</label>
-  <button type="submit">Go!</button>
+  <label for="Name">Name:</label>
+  <input name="fields[Name]" type="text"></br>
+  <label for="E-mail">E-mail:</label>
+  <input name="fields[E-mail]" type="text">
+  <label for="Message">Message:</label>
+  <input name="fields[Message]" type="text">
+  <button type="submit">Submit</button>
 </form>
+</fieldset>
