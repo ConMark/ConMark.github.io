@@ -5,4 +5,4 @@ permalink: /projects/GRINtrode
 ---
 The GRINtrode exists
 
-![GRINtrode](GRINtrode.png){:class="img-responsive"}{:height="237px" width="344px"}
+![GRINtrode](GRINtrode.png){:class="img-responsive"}{:height="331px" width="481px"}
