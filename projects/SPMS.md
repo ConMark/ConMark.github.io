@@ -12,5 +12,5 @@ instructables and was able to gather supplies to build a dozen smartphone micros
 working with [CU Science Discovery](https://www.colorado.edu/sciencediscovery/) to share the fun of microscopy with local high school students
 through the biomedical research bootcamp on the Anschutz campus. 
 
-![CU Sci. Disc. Smartphone Microscopes](SPMS.jpg){:class="img-responsive"}
+![CU Sci. Disc. Smartphone Microscopes](SPMS.jpg){:class="img-responsive"}{:height="598px" width="1062px"}
 
