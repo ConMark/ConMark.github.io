@@ -5,4 +5,4 @@ permalink: /projects/GRINtrode
 ---
 The GRINtrode exists
 
-![Farns](assets/happyfarns.png)
+![GRINtrode](GRINtrode.png){:class="img-responsive"}
