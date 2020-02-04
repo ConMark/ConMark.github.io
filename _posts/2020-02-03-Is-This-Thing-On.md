@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is This Thing On?"
+title: "Is This Thing On"
 date: 2020-02-03
 permalink: /blog/:title
 ---
