@@ -9,4 +9,4 @@ You can read the publication [here](https://opg.optica.org/oe/fulltext.cfm?uri=o
 
 or check the code out [here](https://github.com/ConMark/Electrowetting-Lens-Simulator)
 
-<img src="assets/EWLS.png" alt="EWLS GUI" width="200"/>
+<img src="./assets/EWLS.png" alt="EWLS GUI" width="200"/>
