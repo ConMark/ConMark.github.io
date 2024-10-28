@@ -12,7 +12,7 @@ By fiber coupling the device to a coherent imaging fiber bundle, I was able to u
 You can read the publication [here](https://doi.org/10.1117/1.NPh.9.4.045009)
 
 <p float="left">
-    <video src="../assets/GRINtrode.mp4" width="32%" controls></video>
+    <video src="../assets/GRINtrode.mp4" width="27%" controls></video>
     <img src="../assets/data.gif" alt="GRINtrode Data" width="32%"/>
-    <img src="../assets/GRINtrode.png" alt="GRINtrode Schematic" width="32%"/>
+    <img src="../assets/GRINtrode.png" alt="GRINtrode Schematic" width="37%"/>
 </p>
