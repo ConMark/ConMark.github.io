@@ -7,4 +7,4 @@ The GRINtrex is the next generation of the GRINtrode, and is still in developmen
 
 Through collaboration with a team of electrical engineers, the GRINtrex incorporates an optically transparent microelectrode array adhered to the implanted face of the GRIN lens. This design provides electrical recording sites *throughout* the imaging field, improving overlap between the modalities. 
 
-<img src="../assets/GRINtrex.png" alt="GRINtrex" width="600"/>
+<img src="../assets/GRINtrex.png" class="center" alt="GRINtrex" width="600"/>
