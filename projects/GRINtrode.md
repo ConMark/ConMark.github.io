@@ -3,7 +3,7 @@ layout: default
 title: "GRINtrode"
 permalink: /projects/GRINtrode
 ---
-For my PhD thesis, I wanted to build a neural implant that could simultaneously perform 2-photon GCaMP imaging and electrophysiology in overlapping populations of neurons. I decided on a GRIN lens based device with tetrodes surrounding the lens. I named this device the GRINtrode. 
+For my PhD thesis, I wanted to build a neural implant that could simultaneously perform 2-photon GCaMP imaging and electrophysiology in overlapping populations of neurons. I decided on a GRIN lens based device with tetrodes surrounding the lens and named this device the GRINtrode. 
 
 The goal of the GRINtrode was to record from the same neurons optically and electrically to investigate intricacies of each modality. 
 
