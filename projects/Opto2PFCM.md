@@ -11,5 +11,5 @@ The paper is still in submission, but you can read the preprint [here](https://w
 
 <p float="left">
     <video src="../assets/Opto2PFCMvideo.mp4" width="920" width="40%" controls></video>
-    <img src="../assets/Opto2P.png" alt="Opto2P-FCM" width="40%"/>
+    <img src="../assets/Opto2P.png" alt="Opto2P-FCM" width="58%"/>
 </p>
