@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "EWLS"
+title: "Electrowetting Lens Simulator"
 permalink: /projects/EWLS
 ---
 I wrote an Electrowetting Lens Simulator in MATLAB for modeling liquid-liquid interface surfaces in electrowetting lenses. The code uses finite element analysis to solve the Young-Lipppmann equation, and is packaged in an easy to use GUI. This software was used to generate data for a publication investigating the use of electrowetting lenses as adaptive optics elements. 
