@@ -14,5 +14,5 @@ You can read the publication [here.](https://doi.org/10.1117/1.NPh.9.4.045009)
 <p float="left">
     <video src="../assets/GRINtrode.mp4" width="27%" controls></video>
     <img src="../assets/data.gif" alt="GRINtrode Data" width="31%"/>
-    <img src="../assets/GRINtrode.png" alt="GRINtrode Schematic" width="41%"/>
+    <img src="../assets/GRINtrode.png" alt="GRINtrode Schematic" width="40%"/>
 </p>
