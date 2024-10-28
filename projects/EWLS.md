@@ -8,5 +8,5 @@ I wrote an Electrowetting Lens Simulator in MATLAB for modeling liquid-liquid in
 You can read the publication [here](https://opg.optica.org/oe/fulltext.cfm?uri=oe-25-25-31451&id=379230), or check the code out [here](https://github.com/ConMark/Electrowetting-Lens-Simulator).
 
 <p style="text-align:center;">
-<img src="../assets/EWLS.png" class="center" alt="EWLS GUI" width="600"/>
+<img src="../assets/EWLS.png" class="center" alt="EWLS GUI" width="60%"/>
 </p>
