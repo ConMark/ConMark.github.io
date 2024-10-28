@@ -9,5 +9,7 @@ The Opto2P-FCM is a miniaturized MEMS scanner-based two-photon microscope that i
 
 The paper is still in submission, but you can read the preprint [here](https://www.biorxiv.org/content/10.1101/2024.10.21.619528v1)
 
-<img src="../assets/Opto2P.png" alt="Opto2P-FCM" width="600"/>
-<video src="../assets/Opto2PFCMvideo.mp4" width="460" height="360" controls></video>
+<div class="container">
+    <video src="../assets/Opto2PFCMvideo.mp4" width="460" height="360" controls></video>
+    <img src="../assets/Opto2P.png" alt="Opto2P-FCM" width="600"/>
+</div>
