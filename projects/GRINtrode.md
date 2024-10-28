@@ -11,7 +11,7 @@ By fiber coupling the device to a coherent imaging fiber bundle, I was able to u
 
 You can read the publication [here](https://doi.org/10.1117/1.NPh.9.4.045009).
 
-<p float="left">
+<p style="text-align:center;">
     <video src="../assets/GRINtrode.mp4" width="27%" controls></video>
     <img src="../assets/data.gif" alt="GRINtrode Data" width="31%"/>
     <img src="../assets/GRINtrode.png" alt="GRINtrode Schematic" width="40%"/>
