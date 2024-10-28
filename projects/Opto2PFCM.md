@@ -10,6 +10,6 @@ Two-photon excitation light is delivered to the device through a PM fiber, optog
 The paper is still in submission, but you can read the preprint [here](https://www.biorxiv.org/content/10.1101/2024.10.21.619528v1)
 
 <p float="left">
-    <video src="../assets/Opto2PFCMvideo.mp4" width="920" height="720" controls></video>
-    <img src="../assets/Opto2P.png" alt="Opto2P-FCM" height="720"/>
+    <video src="../assets/Opto2PFCMvideo.mp4" width="920" height="360" controls></video>
+    <img src="../assets/Opto2P.png" alt="Opto2P-FCM" height="360"/>
 </p>
