@@ -15,3 +15,61 @@ description: Ongoing and finished projects
     </ul>
 
 </div> 
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minecraft-style Splash Message</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #FFD700;
+      font-family: monospace;
+      margin: 0;
+    }
+
+    .splash-message {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  transform: rotate(5deg);
+  animation: fade-in-out-scale 1.5s 1.5; /* Reduced animation duration */
+}
+
+@keyframes fade-in-out-scale {
+  0% {
+    opacity: 0.15;
+    transform: rotate(8deg) scale(0.8);
+  }
+  25% {
+    opacity: 1;
+    transform: rotate(8deg) scale(1.2);
+  }
+  50% {
+    opacity: 0.15;
+    transform: rotate(8deg) scale(0.8);
+  }
+  75% {
+    opacity: 1;
+    transform: rotate(8deg) scale(1.2);
+  }
+  100% {
+    opacity: 0.15;
+    transform: rotate(8deg) scale(0.8);
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="splash-message">
+    Herobrine is watching...
+  </div>
+</body>
+<script>
+  const splashMessage = document.querySelector('.splash-message');
+  splashMessage.addEventListener('animationend', () => {
+    splashMessage.remove();
+  });
+</script>
+</html>
