@@ -17,11 +17,11 @@ title: Connor McCullough, PhD
 
     .splash-message {
       position: absolute;
-      top: 20px;
-      right: 20px;
+      top: 30px;
+      right: 30px;
       font-size: 20px;
       transform: rotate(8deg);
-      animation: fade-in-out-scale 1.5s 1.5; 
+      animation: fade-in-out-scale 1.5s 1.5; /* Reduced animation duration */
     }
 
     @keyframes fade-in-out-scale {
@@ -56,8 +56,8 @@ title: Connor McCullough, PhD
       "Now more hireable than ever!!!",
       "Laser focused on a new job!!",
       "Click the resume!!",
-	  "Wow, such PhD! Much hire!",
-	  "PhD in wire jiggling! It works!"
+      "Wow, such PhD! Much hire!",
+      "PhD in wire jiggling! It works!"
       // Add 7 more phrases to the list
     ];
 
@@ -67,13 +67,8 @@ title: Connor McCullough, PhD
 
     splashMessage.textContent = randomPhrase;
 
-    let animationCount = 0;
-
-    splashMessage.addEventListener('animationiteration', () => {
-      animationCount++;
-      if (animationCount === 1.5) {
-        splashMessage.remove();
-      }
+    splashMessage.addEventListener('animationend', () => {
+      splashMessage.remove();
     });
   </script>
 </body>
