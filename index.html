@@ -16,47 +16,65 @@ title: Connor McCullough, PhD
   <style>
 
     .splash-message {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 20px;
-  transform: rotate(8deg);
-  animation: fade-in-out-scale 1.5s 1.5; /* Reduced animation duration */
-}
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 20px;
+      transform: rotate(8deg);
+      animation: fade-in-out-scale 1.5s 1.5; /* 5 iterations */
+    }
 
-@keyframes fade-in-out-scale {
-  0% {
-    opacity: 0.15;
-    transform: rotate(8deg) scale(0.8);
-  }
-  25% {
-    opacity: 1;
-    transform: rotate(8deg) scale(1.2);
-  }
-  50% {
-    opacity: 0.15;
-    transform: rotate(8deg) scale(0.8);
-  }
-  75% {
-    opacity: 1;
-    transform: rotate(8deg) scale(1.2);
-  }
-  100% {
-    opacity: 0.15;
-    transform: rotate(8deg) scale(0.8);
-  }
-}
+    @keyframes fade-in-out-scale {
+      0% {
+        opacity: 0.15;
+        transform: rotate(8deg) scale(0.8);
+      }
+      25% {
+        opacity: 1;
+        transform: rotate(8deg) scale(1.2);
+      }
+      50% {
+        opacity: 0.15;
+        transform: rotate(8deg) scale(0.8);
+      }
+      75% {
+        opacity: 1;
+        transform: rotate(8deg) scale(1.2);
+      }
+      100% {
+        opacity: 0.15;
+        transform: rotate(8deg) scale(0.8);
+      }
+    }
   </style>
 </head>
 <body>
-  <div class="splash-message">
-    Herobrine is watching...
-  </div>
+  <div class="splash-message"></div>
+  <script>
+    const splashMessage = document.querySelector('.splash-message');
+    const splashPhrases = [
+      "Now more hireable than ever!!!",
+      "Laser focused on a new job!!",
+      "Click the resume!!",
+	  "Wow, such PhD! Much hire!",
+	  "PhD in wire jiggling! It works!"
+      // Add 7 more phrases to the list
+    ];
+
+    // Randomly select a phrase
+    const randomIndex = Math.floor(Math.random() * splashPhrases.length);
+    const randomPhrase = splashPhrases[randomIndex];
+
+    splashMessage.textContent = randomPhrase;
+
+    let animationCount = 0;
+
+    splashMessage.addEventListener('animationiteration', () => {
+      animationCount++;
+      if (animationCount === 5) {
+        splashMessage.remove();
+      }
+    });
+  </script>
 </body>
-<script>
-  const splashMessage = document.querySelector('.splash-message');
-  splashMessage.addEventListener('animationend', () => {
-    splashMessage.remove();
-  });
-</script>
 </html>
