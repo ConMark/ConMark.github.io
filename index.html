@@ -21,7 +21,7 @@ title: Connor McCullough, PhD
       right: 20px;
       font-size: 20px;
       transform: rotate(8deg);
-      animation: fade-in-out-scale 1.5s 1.5; /* 5 iterations */
+      animation: fade-in-out-scale 1.5s 1.5; 
     }
 
     @keyframes fade-in-out-scale {
@@ -71,7 +71,7 @@ title: Connor McCullough, PhD
 
     splashMessage.addEventListener('animationiteration', () => {
       animationCount++;
-      if (animationCount === 5) {
+      if (animationCount === 1.5) {
         splashMessage.remove();
       }
     });
