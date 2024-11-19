@@ -12,16 +12,15 @@ title: Connor McCullough, PhD
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Minecraft-style Splash Message</title>
+  
   <style>
-
     .splash-message {
       position: absolute;
       top: 30px;
       right: 30px;
       font-size: 20px;
       transform: rotate(8deg);
-      animation: fade-in-out-scale 1.5s 1.5; /* Reduced animation duration */
+      animation: fade-in-out-scale 1.5s 1.5; 
     }
 
     @keyframes fade-in-out-scale {
@@ -58,10 +57,8 @@ title: Connor McCullough, PhD
       "Click the resume!!",
       "Wow, such PhD! Much hire!",
       "PhD in wire jiggling! It works!"
-      // Add 7 more phrases to the list
     ];
 
-    // Randomly select a phrase
     const randomIndex = Math.floor(Math.random() * splashPhrases.length);
     const randomPhrase = splashPhrases[randomIndex];
 
