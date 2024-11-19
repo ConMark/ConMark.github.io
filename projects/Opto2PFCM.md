@@ -3,7 +3,7 @@ layout: default
 title: "Opto2P-FCM"
 permalink: /projects/Opto2PFCM
 ---
-The Opto2P-FCM is a miniaturized MEMS scanner-based two-photon microscope that incorporates patterned holographic optogenetic stimulation capabilities, suitable for use in freely moving animals. The Opto2P-FCM is a first of its kind device that pushes our capabilities in animal neuroscience experiments. 
+The Opto2P-FCM is a miniaturized MEMS scanner-based two-photon microscope that incorporates patterned holographic optogenetic stimulation capabilities, suitable for use in freely moving animals. These capabilities make Opto2P-FCM a first of its kind device that pushes our capabilities in animal neuroscience experiments. 
 
 Two-photon excitation light is delivered to the device through a PM fiber, optogenetic patterns are generated using a spatial light modulator and delivered through a coherent imaging fiber bundle, and emission light is collected through the same fiber bundle. 
 
