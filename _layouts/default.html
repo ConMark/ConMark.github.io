@@ -12,7 +12,7 @@
     		<ul>
         		<li><a href="/">Home</a></li>
 				<li><a href="/projects">Projects</a></li>
-				<li><a href="/resume.pdf">Resume</a></li>
+				<li><a href="/resume.pdf" target="_blank">Resume</a></li>
     		</ul>
 		</nav>
 		<div class="container">
@@ -22,13 +22,25 @@
 		</div><!-- /.container -->
 		<footer>
     		<ul>
-				<li><a href="https://www.linkedin.com/in/connor-mccullough-phd/"><img src="/assets/linkedin.png" alt="LinkedIn" style="width:64px;height:64px;"></a></li>
+				<li><a href="https://www.linkedin.com/in/connor-mccullough-phd/" target="_blank"><img src="/assets/linkedin.png" alt="LinkedIn" style="width:64px;height:64px;"></a></li>
+				<li><a onclick="copyToClipboard('connor.mccullough@cuanschutz.edu')"><img src="/assets/email.png" alt="Email" style="width:64px;height:64px;"></a></li>
         		<li><a href="mailto:connor.mccullough@cuanschutz.edu"><img src="/assets/email.png" alt="Email" style="width:64px;height:64px;"></a></li>
-				<li><a href="https://github.com/ConMark"><img src="/assets/github.png" alt="GitHub" style="width:64px;height:64px;"></a></li>
-				<li><a href="https://x.com/coneural"><img src="/assets/X.png" alt="X" style="width:64px;height:64px;"></a></li>
-				<li><a href="https://researchgate.net/profile/Connor_Mccullough4"><img src="/assets/researchgate.png" alt="ResearchGate" style="width:64px;height:64px;"></a></li>
+				<li><a href="https://github.com/ConMark" target="_blank"><img src="/assets/github.png" alt="GitHub" style="width:64px;height:64px;"></a></li>
+				<li><a href="https://x.com/coneural" target="_blank"><img src="/assets/X.png" alt="X" style="width:64px;height:64px;"></a></li>
+				<li><a href="https://researchgate.net/profile/Connor_Mccullough4" target="_blank"><img src="/assets/researchgate.png" alt="ResearchGate" style="width:64px;height:64px;"></a></li>
 			</ul>
 		</footer>
 		
 	</body>
+	<script>
+		function copyToClipboard(text) {
+		  navigator.clipboard.writeText(text).then(() => {
+			alert("My email address has been copied to your clipboard!");
+		  }, () => {
+			alert("Failed to copy email address!");
+		  });
+		}
+	  </script>
 </html>
+
+
